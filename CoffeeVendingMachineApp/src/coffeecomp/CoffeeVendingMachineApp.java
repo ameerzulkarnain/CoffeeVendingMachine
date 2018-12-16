@@ -136,7 +136,7 @@ public class CoffeeVendingMachineApp {
 		
 			placeOrder: while(true) {
 				System.out.println("\n\n========= Your Coffee ==========");
-//				System.out.println(machine.getCoffee());
+				System.out.println(machine.getCoffee());
 				System.out.println("\n[0] Confirm and Place Order");
 				System.out.println("[1] Cancel");
 				System.out.print("\nEnter your choice (999 to exit system): ");

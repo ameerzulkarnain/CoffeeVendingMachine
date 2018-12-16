@@ -28,9 +28,9 @@ public class CoffeeVendingMachine implements CoffeeVendingMachineIfce, Component
 		System.out.println("\n------> "  + coffee.getDescription() + "\n");
 	}
 	
-//	public Beverage getCoffee() {
-//		return coffee;
-//	}
+	public String getCoffee() {
+		return coffee.toString();
+	}
 	
 	public void addTopping(String topping) {
 		switch(topping) {
